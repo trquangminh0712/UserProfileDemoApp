@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">UserProfileDemoApp</string>
+    <string name="alex_johnson">Alex Johnson</string>
+    <string name="User_Profile_description"><![CDATA[Product Designer & Photography \n Enthusiast based in San Francisco.]]></string>
+    <string name="post_amount">124\n Post</string>
+    <string name="followers_amount">1.2K\n Followers</string>
+    <string name="following_amount">450\n Following</string>
+    <string name="edit_proifle">Edit Proifle</string>
+    <string name="share_profile">share profile</string>
 </resources>
