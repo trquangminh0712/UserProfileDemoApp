@@ -82,6 +82,7 @@
         android:layout_marginTop="20dp"
         android:textSize="16sp"/>
     <Button
+        android:id="@+id/btnShareProfile"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -93,6 +94,73 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="10dp"
         android:textSize="16sp"/>
-
+    <TextView
+        android:id="@+id/txtMyActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/my_activity"
+        android:layout_below="@id/btnShareProfile"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginTop="40dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/recent"
+        android:layout_alignBottom="@id/txtMyActivity"
+        android:layout_marginStart="40dp"/>
+    <TextView
+        android:id="@+id/txtSavedItems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save_items"
+        android:layout_below="@id/txtMyActivity"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginTop="20dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/save_items"
+        android:layout_alignBottom="@id/txtSavedItems"
+        android:layout_marginStart="40dp"/>
+    <TextView
+        android:id="@+id/txtPriandSec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/privacy_amp_security"
+        android:layout_below="@id/txtSavedItems"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginTop="20dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/priandsec"
+        android:layout_alignBottom="@id/txtPriandSec"
+        android:layout_marginStart="40dp"/>
+    <TextView
+        android:id="@+id/txtHelpCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/help_center"
+        android:layout_below="@id/txtPriandSec"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginTop="20dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/HelpCenter"
+        android:layout_alignBottom="@id/txtHelpCenter"
+        android:layout_marginStart="40dp" />
 
 </RelativeLayout>

@@ -7,4 +7,8 @@
     <string name="following_amount">450\n Following</string>
     <string name="edit_proifle">Edit Proifle</string>
     <string name="share_profile">share profile</string>
+    <string name="my_activity">My Activity</string>
+    <string name="save_items">Save Items</string>
+    <string name="privacy_amp_security"><![CDATA[Privacy & Security]]></string>
+    <string name="help_center">Help Center</string>
 </resources>
